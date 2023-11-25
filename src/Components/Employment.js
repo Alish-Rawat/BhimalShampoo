@@ -10,12 +10,12 @@ const Employment = () => {
       </h2>
       <div className="block justify-evenly w-full  sm:py-6 sm:flex">
         <img
-          className="h-[20rem] sm:h-[25rem]  shadow-md rounded-xl p-2 sm:p-0"
+          className="h-[20rem] sm:w-[30rem]  shadow-md rounded-xl p-2 sm:p-0"
           alt="logo"
           src={Employment1}
         />
         <img
-          className="h-[20rem] sm:h-[25rem] shadow-md rounded-xl  p-2 sm:p-0"
+          className="h-[20rem] sm:w-[30rem] shadow-md rounded-xl  p-2 sm:p-0"
           alt="logo"
           src={Employment2}
         />

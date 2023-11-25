@@ -25,7 +25,7 @@ export const SimpleSlider = () => {
     autoplay: true,
   };
   return (
-    <div className="h-[30rem]  w-[45rem] mt-3  rounded-full">
+    <div className="sm:h-[30rem]  w-[45rem] mt-3  rounded-full">
       <div className=" flex justify-center ">
         <Slider {...settings}>
           <div className="">
