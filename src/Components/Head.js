@@ -5,18 +5,18 @@ import log from "../img/logo.jpeg";
 const Head = () => {
   return (
     <div className="absolute w-full shadow-xl">
-      <div className="relative flex justify-between px-0 w-full sm:my-5 sm:pl-12 sm:px-6 ">
-        <Link to="/">
+      <div className="relative flex justify-between px-0 w-full sm:my-2 sm:pl-12 sm:px-2 ">
+        <Link to="#">
           <img
             alt="logo"
-            className="  w-[5rem] rounded-full shadow-2xl m-4 sm:m-0 "
+            className="  w-[4rem] rounded-full shadow-2xl m-4 sm:m-0 "
             src={log}
           />
         </Link>
 
-        <ul className="flex items-center justify-evenly w-[30em] text-lg sm:text-2xl font-sans font-bold text-white">
+        <ul className="flex items-center justify-evenly w-[35em] text-lg sm:text-xl font-sans font-bold text-white">
           <li className="hover:bg-blue-gray-200 rounded-lg p-2 ">
-            <a href="/"> Home </a>
+            <a href="/BhimalShampoo/"> Home </a>
           </li>
 
           <li

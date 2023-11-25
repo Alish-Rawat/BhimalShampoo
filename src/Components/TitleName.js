@@ -4,7 +4,7 @@ import shampooPic from "../img/shampoo.png";
 const TitleName = () => {
   return (
     <div className="flex items-center justify-center">
-      <div className="  border border-white sm:w-[38rem] h-[29rem] shadow-2xl">
+      <div className="sm:mt-14  border border-white sm:w-[38rem] h-[29rem] shadow-2xl">
         <h2 className="flex justify-center m-2 p-1 font-serif sm:text-4xl text-3xl  text-[#fff] font-bold">
           BHEEMAL &nbsp; SHAMPOO
         </h2>

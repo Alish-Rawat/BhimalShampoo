@@ -7,10 +7,10 @@ const About = () => {
     <div id="About" className="bg-[#00011d] bg-cover my-1">
       <div className="flex justify-center w-full ">
         <div>
-          <h1 className="flex justify-center font-sans text-5xl font-bold text-white m-6 p-2 underline underline-offset-8">
+          <h1 className="flex justify-center font-sans text-5xl font-bold text-white m-6  p-2 sm:translate-y-3 underline underline-offset-8">
             About
           </h1>
-          <p className="sm:m-8 m-4 sm:p-8 pl-4 tracking-wider text-lg text-white">
+          <p className="sm:m-8 m-4 sm:p-10 pl-4 tracking-wider text-[1.1rem] text-white">
             The Bhimal shampoo was formulated by using the extract of Grewia
             optiva which is also known as Bhimal in Uttarakhand. The plant
             contains saponins thus, it has good detergency and cleansing
