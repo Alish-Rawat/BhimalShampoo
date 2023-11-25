@@ -26,7 +26,7 @@ export const SimpleSlider = () => {
   };
   return (
     <div className="h-[30rem]  w-[45rem] mt-3  rounded-full">
-      <div className="h-screen flex justify-center ">
+      <div className=" flex justify-center ">
         <Slider {...settings}>
           <div className="">
             <img
