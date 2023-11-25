@@ -22,7 +22,7 @@ const AppLayout = () => {
 
 const appRouter = createBrowserRouter([
   {
-    path: "/BhimalShampoo/",
+    path: "/BheemalShampoo/",
     element: <AppLayout />,
   },
 

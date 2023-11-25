@@ -11,7 +11,7 @@ const About = () => {
             About
           </h1>
           <p className="sm:m-8 m-4 sm:p-10 pl-4 tracking-wider text-[1.1rem] text-white">
-            The Bhimal shampoo was formulated by using the extract of Grewia
+            The Bheemal shampoo was formulated by using the extract of Grewia
             optiva which is also known as Bhimal in Uttarakhand. The plant
             contains saponins thus, it has good detergency and cleansing
             property. The pH of all formulations in the range of 5-7. The pH
@@ -19,12 +19,12 @@ const About = () => {
             The shampoo is wholly prepared by using natural ingredients
             therefore it prevents the harm to hairs from the synthetic
             chemicals. Further, it will also promote the use of Grewia optiva
-            (Bhimal) as surfactant in National and International market.
+            (Bheemal) as surfactant in National and International market.
             <br />
             <br />
             - 100% Handmade Made by Skilled Artisan From Uttarakhand
             <br />
-            - Material-Bhimal tree plants, soapberry and Shikakai
+            - Material-Bheemal tree plants, soapberry and Shikakai
             <br />- Herbal Bheemal Shampoo 500ml Bottle
             <br />
             - Repairs dead skin cells Repairs & adds lustre to dry & brittle

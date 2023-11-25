@@ -8,7 +8,7 @@ const Employment = () => {
       <h2 className="m-4 p-4 text-white flex justify-center text-5xl underline underline-offset-8">
         Employment
       </h2>
-      <div className="block justify-evenly w-full sm:m-8 sm:py-6 sm:flex">
+      <div className="block justify-evenly w-full  sm:py-6 sm:flex">
         <img
           className="h-[20rem] sm:h-[25rem]  shadow-md rounded-xl p-2 sm:p-0"
           alt="logo"
