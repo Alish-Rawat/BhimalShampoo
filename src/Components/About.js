@@ -11,8 +11,8 @@ const About = () => {
             About
           </h1>
           <p className="sm:m-8 m-4 sm:p-10 pl-4 tracking-wider text-[1.1rem] text-white">
-            The Bheemal shampoo was formulated by using the extract of Grewia
-            optiva which is also known as Bhimal in Uttarakhand. The plant
+            The Bheemal Shampoo was formulated by using the extract of Grewia
+            optiva which is also known as Bheemal in Uttarakhand. The plant
             contains saponins thus, it has good detergency and cleansing
             property. The pH of all formulations in the range of 5-7. The pH
             plays an important role and helps in reduction of eye irritation.

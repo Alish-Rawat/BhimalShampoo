@@ -16,7 +16,7 @@ const Head = () => {
 
         <ul className="flex items-center justify-evenly w-[35em] text-lg sm:text-xl font-sans font-bold text-white">
           <li className="hover:bg-blue-gray-200 rounded-lg p-2 ">
-            <a href="/BheemalShampoo/"> Home </a>
+            <a href="/BheemalShampoo/"> Homeuu </a>
           </li>
 
           <li
