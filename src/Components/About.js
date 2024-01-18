@@ -35,32 +35,27 @@ const About = () => {
             - Strengthen’s hair follicles Natural & Ayurvedic
             <br />
             <br />
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable. If you are going to use a passage of Lorem Ipsum, you
-            need to be sure there isn't anything embarrassing hidden in the
-            middle of text. All the Lorem Ipsum generators on the Internet tend
-            to repeat predefined chunks as necessary, making this the first true
-            generator on the Internet. It uses a dictionary of over 200 Latin
-            words, combined with a handful of model sentence structures, to
-            generate Lorem Ipsum which looks reasonable. The generated Lorem
-            Ipsum is therefore always free from repetition, injected humour, or
-            non-characteristic words etc.
+            Jadi Beaute’s Bhimal Shampoo is for individuals who are looking for
+            a mild daily use shampoo which strengthens hair naturally. It
+            prevents hair fall, repairs & adds lustre to dry & brittle hair.
+            Grewia optiva (Bhimal) are trees found near agricultural fields in
+            the hills and inhabitants consider them family trees. Traditionally,
+            sap of Bhimal bark is used for washing hair. It contains saponins
+            and the villagers use it as an alternative to soap. Bhimal has very
+            good foaming capacity and is capable of reducing surface tension
+            thus making it a perfect choice for use in shampoo as a natural
+            surfactant.
             <br />
             <br />
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable. If you are going to use a passage of Lorem Ipsum, you
-            need to be sure there isn't anything embarrassing hidden in the
-            middle of text. All the Lorem Ipsum generators on the Internet tend
-            to repeat predefined chunks as necessary, making this the first true
-            generator on the Internet. It uses a dictionary of over 200 Latin
-            words, combined with a handful of model sentence structures, to
-            generate Lorem Ipsum which looks reasonable. The generated Lorem
-            Ipsum is therefore always free from repetition, injected humour, or
-            non-characteristic words etc.
+            Wet your hair with lukewarm or room-temperature water and apply the
+            shampoo thoroughly across your scalp. Wash off after 3-5 minutes.
+            Let your hair dry naturally. Jadi Beaute’s Bhimal Shampoo is for
+            individuals who are looking for a mild daily use shampoo which
+            strengthens hair naturally. It prevents hair fall, repairs & adds
+            lustre to dry & brittle hair It contains saponins and the villagers
+            use it as an alternative to soap. Bhimal has very good foaming
+            capacity and is capable of reducing surface tension thus making it a
+            perfect choice for use in shampoo as a natural surfactant.
           </p>
         </div>
       </div>
