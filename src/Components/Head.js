@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import log from "../img/logo.jpeg";
+import cartIcon from "../img/cart_icon.png";
 
 const Head = () => {
   return (
@@ -45,12 +46,18 @@ const Head = () => {
           >
             Contacts
           </li>
-          <li className="hover:bg-blue-gray-200 rounded-lg p-2">
-            <Link to="https://www.amazon.in/Herbal-Bheemal-Shampoo-500-Pack/dp/B0BJV3ZS6N/ref=sr_1_2?adgrpid=130189773118&ext_vrnc=hi&gclid=CjwKCAiAgeeqBhBAEiwAoDDhn5H96WKj2EOOO_-dFcS8Eji2Ep4-AZqmale62uq2BDqNCuQ59RY0xhoCE38QAvD_BwE&hvadid=590283464781&hvdev=c&hvlocphy=9144965&hvnetw=g&hvqmt=e&hvrand=7073890956038557352&hvtargid=kwd-1920451460828&hydadcr=5660_2300254&keywords=herbal+bhimal+shampoo&qid=1700438072&sr=8-2">
-              Shop
-            </Link>
-          </li>
+          {/* <li className="hover:bg-blue-gray-200 rounded-lg p-2">Shop</li> */}
         </ul>
+        <div className="flex -translate-x-20 gap-14">
+          <Link to="/login">
+            <h1 className="border   px-4 py-2 rounded-lg m-4 font-bold text-xl text-white">
+              Login
+            </h1>
+          </Link>
+          <Link to="https://www.amazon.in/Herbal-Bheemal-Shampoo-500-Pack/dp/B0BJV3ZS6N/ref=sr_1_2?adgrpid=130189773118&ext_vrnc=hi&gclid=CjwKCAiAgeeqBhBAEiwAoDDhn5H96WKj2EOOO_-dFcS8Eji2Ep4-AZqmale62uq2BDqNCuQ59RY0xhoCE38QAvD_BwE&hvadid=590283464781&hvdev=c&hvlocphy=9144965&hvnetw=g&hvqmt=e&hvrand=7073890956038557352&hvtargid=kwd-1920451460828&hydadcr=5660_2300254&keywords=herbal+bhimal+shampoo&qid=1700438072&sr=8-2">
+            <img className="m-4 " src={cartIcon} alt="cart" />
+          </Link>
+        </div>
       </div>
     </div>
   );
