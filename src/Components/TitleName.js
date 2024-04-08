@@ -1,5 +1,6 @@
 import React from "react";
 import shampooPic from "../img/shampoo.png";
+import shampoo from "../img/shampoo 2.png";
 
 const TitleName = () => {
   return (
@@ -9,9 +10,9 @@ const TitleName = () => {
           BHEEMAL &nbsp; SHAMPOO
         </h2>
         <div className=" flex justify-center -translate-y-4">
-          <img className="w-[19rem]" alt="pic" src={shampooPic} />
+          <img className="w-[18rem] -translate-y-6" alt="pic" src={shampoo} />
         </div>
-        <p className="sm:m-2 mx-5 p-2 font-semibold text-white font-sans text-lg -translate-y-20">
+        <p className="sm:m-2 mx-5 p-2 font-semibold text-white font-sans text-lg -translate-y-24">
           Extracted from Himalayas and blended with natural ingredients.
         </p>
       </div>

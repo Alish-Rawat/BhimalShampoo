@@ -11,6 +11,7 @@ import * as React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./Components/About";
 import Login from "./Components/Login";
+import ProductDisplay from "./Components/ProductDisplay";
 
 const AppLayout = () => {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Routes>
           <Route path="/BheemalShampoo" element={<AppLayout />}></Route>
           <Route path="/login" element={<Login />}></Route>
+          <Route path="/productdisplay" element={<ProductDisplay />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

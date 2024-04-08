@@ -49,14 +49,35 @@ const Head = () => {
           {/* <li className="hover:bg-blue-gray-200 rounded-lg p-2">Shop</li> */}
         </ul>
         <div className="flex -translate-x-20 gap-14">
-          <Link to="/login">
-            <h1 className="border   px-4 py-2 rounded-lg m-4 font-bold text-xl text-white">
-              Login
-            </h1>
-          </Link>
+          {localStorage.getItem("auth-bheemal") ? (
+            <div className="flex items-center">
+              <h1 className=" text-white text-lg">
+                {localStorage.getItem("auth-bheemal")}
+              </h1>
+              <button
+                className="border   px-3 py-2 rounded-lg m-4 font-bold text-xl text-white"
+                onClick={() => {
+                  localStorage.removeItem("auth-bheemal");
+                  window.location.replace("/BheemalShampoo");
+                }}
+              >
+                Logout
+              </button>
+            </div>
+          ) : (
+            <Link to="/login">
+              <button className="border   px-4 py-2 rounded-lg m-4 font-bold text-xl text-white">
+                Login
+              </button>
+            </Link>
+          )}
+
           <Link to="https://www.amazon.in/Herbal-Bheemal-Shampoo-500-Pack/dp/B0BJV3ZS6N/ref=sr_1_2?adgrpid=130189773118&ext_vrnc=hi&gclid=CjwKCAiAgeeqBhBAEiwAoDDhn5H96WKj2EOOO_-dFcS8Eji2Ep4-AZqmale62uq2BDqNCuQ59RY0xhoCE38QAvD_BwE&hvadid=590283464781&hvdev=c&hvlocphy=9144965&hvnetw=g&hvqmt=e&hvrand=7073890956038557352&hvtargid=kwd-1920451460828&hydadcr=5660_2300254&keywords=herbal+bhimal+shampoo&qid=1700438072&sr=8-2">
             <img className="m-4 " src={cartIcon} alt="cart" />
           </Link>
+          <div className="border absolute right-0 -translate-x-4 translate-y-2 px-1.5 text-white rounded-full bg-red-500 w-5 h-5 text-sm">
+            2
+          </div>
         </div>
       </div>
     </div>
