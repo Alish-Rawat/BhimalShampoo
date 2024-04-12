@@ -51,11 +51,11 @@ const Head = () => {
         <div className="flex -translate-x-20 gap-14">
           {localStorage.getItem("auth-bheemal") ? (
             <div className="flex items-center">
-              <h1 className=" text-white text-lg">
+              <h1 className="  text-lg">
                 {localStorage.getItem("auth-bheemal")}
               </h1>
               <button
-                className="border   px-3 py-2 rounded-lg m-4 font-bold text-xl text-white"
+                className="border   px-3 py-2 rounded-lg m-4 font-bold text-xl border-black hover:bg-red-300"
                 onClick={() => {
                   localStorage.removeItem("auth-bheemal");
                   window.location.replace("/BheemalShampoo");
