@@ -9,7 +9,7 @@ const Body = () => {
   return (
     <>
       {/* <TwoComponents /> */}
-      <div className=" bg-hero bg-inherit sm:bg-cover ">
+      <div className=" bg-[#f8f3f0] bg-inherit sm:bg-cover ">
         <div className="flex w-full h-[100vh] items-center justify-center">
           {/* <Carousel /> */}
           <TitleName />

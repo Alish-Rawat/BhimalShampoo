@@ -8,7 +8,7 @@ import P3 from "../img/PJaljeera2.png";
 const Products = () => {
   return (
     <>
-      <div className="flex justify-center font-serif text-5xl sm:p-1  text-white h-[4rem]">
+      <div className="flex justify-center font-serif text-5xl sm:p-1  font-bold h-[4rem] ">
         Products
       </div>
       <div className="sm:flex justify-center border border-white h-[79rem] sm:h-[32rem]">
