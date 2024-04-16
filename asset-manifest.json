@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BheemalShampoo/static/css/main.f67d3f40.css",
-    "main.js": "/BheemalShampoo/static/js/main.ec8d383a.js",
+    "main.css": "/BheemalShampoo/static/css/main.4048680e.css",
+    "main.js": "/BheemalShampoo/static/js/main.dde49cc0.js",
     "static/js/787.dbaa18eb.chunk.js": "/BheemalShampoo/static/js/787.dbaa18eb.chunk.js",
     "static/media/shampoo 2.png": "/BheemalShampoo/static/media/shampoo 2.d71e5cabda4ebf088c08.png",
     "static/media/Project6.png": "/BheemalShampoo/static/media/Project6.799c0a2bf976cdcac380.png",
@@ -26,12 +26,12 @@
     "static/media/slick.ttf": "/BheemalShampoo/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/BheemalShampoo/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/BheemalShampoo/index.html",
-    "main.f67d3f40.css.map": "/BheemalShampoo/static/css/main.f67d3f40.css.map",
-    "main.ec8d383a.js.map": "/BheemalShampoo/static/js/main.ec8d383a.js.map",
+    "main.4048680e.css.map": "/BheemalShampoo/static/css/main.4048680e.css.map",
+    "main.dde49cc0.js.map": "/BheemalShampoo/static/js/main.dde49cc0.js.map",
     "787.dbaa18eb.chunk.js.map": "/BheemalShampoo/static/js/787.dbaa18eb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f67d3f40.css",
-    "static/js/main.ec8d383a.js"
+    "static/css/main.4048680e.css",
+    "static/js/main.dde49cc0.js"
   ]
 }
